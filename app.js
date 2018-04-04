@@ -5,6 +5,7 @@ var app = express();
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
 
+
 mongoose.connect("mongodb://rushi:BoSs@35.188.66.33:27017/myadmin");
 
 app.use(bodyParser.urlencoded({extended: true}));
