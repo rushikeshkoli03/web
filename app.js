@@ -46,6 +46,10 @@ app.post("/add", function(req, res) {
    })
 })
 
+app.get("/", (req, res) {
+	res.send("eww");
+});
+
 app.listen(8080, function() {
    console.log("Server started");
 });
